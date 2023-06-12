@@ -1,0 +1,109 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #2196f3;
+}
+.app {
+  width: 100;
+  margin: 55px 20px;
+  padding: 30px;
+}
+
+@media (max-width: 630) {
+  .app {
+    padding-top: 70px;
+  }
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: #242424;
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
+
+a.youtube {
+  text-decoration: none;
+  background: linear-gradient(to right, black, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  position: absolute;
+  top: 90%;
+  right: 50%;
+}
+a.youtube:hover {
+  cursor: pointer;
+  background: linear-gradient(to right, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a#website {
+  text-decoration: none;
+  background: linear-gradient(to right, yellow, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+  font-size: large;
+}
+
+a#website:hover {
+  background: linear-gradient(to right, red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#detailsTitle {
+  background: linear-gradient(to right, blue, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#detailsOverview {
+  background: linear-gradient(to right, white, black, white, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+}
+
+#detailsOverview:hover {
+  background: linear-gradient(to right, black, white, black, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 500px) {
+  .detailsBox {
+    height: 60%;
+  }
+}

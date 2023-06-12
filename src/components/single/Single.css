@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.single {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+  background-color: #90caf9;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 10px 10px 10px 0;
+  color: black;
+}
+.single:hover {
+  background-color: #42a5f5;
+  cursor: pointer;
+}
+
+.poster {
+  width: 180px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.movieContainer {
+  display: grid;
+}

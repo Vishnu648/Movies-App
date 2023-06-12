@@ -1,0 +1,12 @@
+.trending {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.movieContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
