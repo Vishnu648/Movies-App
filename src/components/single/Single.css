@@ -18,6 +18,7 @@
 .single:hover {
   background-color: #42a5f5;
   cursor: pointer;
+  transform: scale(1.05);
 }
 
 .poster {
