@@ -20,7 +20,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-color: #2196f3;
+  background:linear-gradient(to right,black,#1ff);
 }
 .app {
   width: 100;
