@@ -22,6 +22,7 @@ body {
   flex-direction: column;
   background:linear-gradient(to right,black,#1ff);
 }
+
 .app {
   width: 100;
   margin: 55px 20px;
