@@ -98,7 +98,7 @@ export default function Details({ children, id }) {
               )}
             </span>{" "}
             <div id="detailsOverview" style={{ marginTop: "35px" }}>
-              {content.overview}
+              <p> {content.overview} </p>
             </div>
           </div>
 
