@@ -96,7 +96,7 @@ a#website:hover {
   font-size: 18px;
 }
 
-#detailsOverview:hover {
+#detailsOverview p:hover {
   background: linear-gradient(to right, black, white, black, white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
